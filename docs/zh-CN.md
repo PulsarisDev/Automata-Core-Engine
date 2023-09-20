@@ -39,7 +39,7 @@
 *以上方法并非函数原型，因为它们没有包含类型和信息。具体函数的定义和使用方法可在下文中找到。
 
 ## 安装
-在源码中下载automata.hpp，在自己的代码中包含该头文件即可。
+在源码中下载[automata.hpp](https://github.com/PulsarisDev/Automata-Core-Engine/blob/main/automata.hpp)，在自己的代码中包含该头文件即可。
 
 注意：要使用该头文件，您的编译器需要支持`C++11`标准。
 
@@ -139,7 +139,7 @@
 
 ### 例1 验证给定字符串是否符合正则表达式a(b+c)*的DFA
 原正则表达式对应的一种DFA如下：
-
+![DFA_Example_1](https://github.com/PulsarisDev/Automata-Core-Engine/assets/18120120/dad5a07b-f8a1-4f95-b309-a9a2d45edddb)
 注意，以上DFA只是众多能解释原正则表达式的一种，且并非是最小化DFA。由于本例旨在展示本DFA引擎的使用方法，故不对以上DFA是否最小展开讨论。
 
 实现该DFA的代码如下：
@@ -177,6 +177,7 @@ Verified
 
 ### 例2 判断字符串中有多少个符合10+语句的DFA
 如图构造DFA：
+![DFA_Example_2](https://github.com/PulsarisDev/Automata-Core-Engine/assets/18120120/8e4cb5e6-4c84-460f-acc8-5410381042e4)
 
 ```C++
 #include <iostream>
